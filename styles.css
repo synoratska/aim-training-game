@@ -40,7 +40,7 @@ h1 {
   width: 100vw;
   transition: margin 0.5s ease-out;
   background: rgb(136,152,255);
-  background: linear-gradient(0deg, rgba(136,152,255,1) 0%, rgba(45,47,152,0.9612219887955182) 52%);
+  background: linear-gradient(0deg, rgb(214, 236, 10) 0%, rgba(45,47,152,0.9612219887955182) 55%);
 }
 
 .screen.up {
