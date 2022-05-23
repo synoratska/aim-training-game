@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: 'Khula', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d1d800;
+}
+
+.start {
+  font-size: 1.5rem;
+}
+
+h1 {
+  line-height: 1.4;
+  font-size: 4rem;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  transition: margin 0.5s ease-out;
+  background: rgb(136,152,255);
+  background: linear-gradient(0deg, rgba(136,152,255,1) 0%, rgba(45,47,152,0.9612219887955182) 52%);
+}
+
+.screen.up {
+  margin-top: -100vh;
+}
+
+.time-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.time-list li {
+  margin: 10px;
+}
+
+.time-btn {
+  background-color: transparent;
+  border: 2px solid #C0C0C0;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.time-btn:hover {
+  border: 2px solid #aaad0d;
+  color: #d1d800;
+}
+
+.primary {
+  color: #d1d800;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: rgb(119,134,235);
+  background: radial-gradient(circle, rgba(119,134,235,1) 30%, rgba(163,165,255,1) 100%);
+  box-shadow: -8px -8px 20px #a3a5ff, 10px 7px 20px #7786eb;
+  overflow: hidden;
+}
+
+.ball {
+  background: rgb(18,37,161);
+  background: radial-gradient(circle, rgba(18,37,161,1) 30%, rgba(163,165,255,1) 100%);
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+}
