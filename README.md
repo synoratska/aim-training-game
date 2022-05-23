@@ -13,4 +13,4 @@ After starting, you have to set the time of game round and during chosen time to
 [aim-training-game]
 
 
-[![project11.png](https://i.postimg.cc/yNKx9XSC/project11.png)](https://postimg.cc/68HBxZ0M)
+[![project11.png](https://i.postimg.cc/pdDHfwMs/project11.png)](https://postimg.cc/bGNW8FJn)
